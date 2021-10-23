@@ -7,31 +7,31 @@ moneyType = 'bank'
 -- Add locations here
 -- Add jobs specific to the garage.
 bennyGarages = {
-    [1] = {coords = vector4(-211.55, -1324.55, 30.90, 319.73135375977), useJob = false, job = {"mechanic", "police"}},
-    [2] = {coords = vector4(109.89, 6627.07, 31.78, 221.7938), useJob = true, job = {"mechanic"}},
-    [3] = {coords = vector4(-32.7, -1065.29, 28.14, 339.99), useJob = true, job = {"mechanic"}},
-    [4] = {coords = vector4(-38.73, -1052.82, 28.13, 340.41), useJob = true, job = {"mechanic"}},
-    [5] = {coords = vector4(450.2, -975.87, 25.11, 90.42), useJob = true, job = {"police"}}
+    [1] = {coords = vector4(-211.55, -1324.55, 30.90, 319.73135375977), useJob = false},
+    [2] = {coords = vector4(109.89, 6627.07, 31.78, 221.7938), useJob = false},
+    [3] = {coords = vector4(-32.7, -1065.29, 28.14, 339.99), useJob = false},
+    [4] = {coords = vector4(-38.73, -1052.82, 28.13, 340.41), useJob = false},
+    [5] = {coords = vector4(435.39, -1026.94, 28.17, 5.64), useJob = true, job = {"police"}},
+    [6] = {coords = vector4(1174.7, 2639.84, 37.08, 1.19), useJob = false},
+    [7] = {coords = vector4(1691.26, 3606.02, 34.98, 207.81), useJob = false}
 }
 
---[[ bennyLocations = {
-    vector4(-211.55, -1324.55, 30.90, 319.731)
-} ]]
+--
 
 -- ADJUST PRICING
 
 vehicleCustomisationPrices = {
-    cosmetics = {price = 400},
+    cosmetics = {price = 900},
     respray = {price = 1000},
-    performance = {prices = {0, 3250, 5500, 10450, 15250, 20500}},
-    turbo = {price = 15000},
-    wheels = {price = 400},
-    customwheels = {price = 600},
-    wheelsmoke = {price = 400},
-    windowtint = {price = 400},
-    neonside = {price = 100},
-    neoncolours = {price = 500},
-    headlights = {price = 100},
+    performance = {prices = {0, 7250, 11500, 18450, 23250, 31500}},
+    turbo = {price = 40000},
+    wheels = {price = 800},
+    customwheels = {price = 200},
+    wheelsmoke = {price = 1200},
+    windowtint = {price = 1200},
+    neonside = {price = 900},
+    neoncolours = {price = 400},
+    headlights = {price = 900},
     xenoncolours = {price = 500},
     oldlivery = {price = 500},
     plateindex = {price = 1000}

@@ -789,7 +789,7 @@ function disableControls()
     DisableControlAction(1, 172, true) --Key: Up Arrow
     DisableControlAction(1, 173, true) --Key: Down Arrow
     DisableControlAction(1, 177, true) --Key: Backspace
-    DisableControlAction(1, 176, true) --Key: Enter
+    DisableControlAction(1, 191, true) --Key: Enter
     DisableControlAction(1, 71, true) --Key: W (veh_accelerate)
     DisableControlAction(1, 72, true) --Key: S (veh_brake)
     DisableControlAction(1, 34, true) --Key: A
@@ -806,7 +806,7 @@ function disableControls()
         PlaySoundFrontend(-1, "NAV_UP_DOWN", "HUD_FRONTEND_DEFAULT_SOUNDSET", 1)
     end
 
-    if IsDisabledControlJustReleased(1, 176) then --Key: Enter
+    if IsDisabledControlJustReleased(1, 191) then --Key: Enter
         MenuManager(true)
         PlaySoundFrontend(-1, "OK", "HUD_FRONTEND_DEFAULT_SOUNDSET", 1)
     end
