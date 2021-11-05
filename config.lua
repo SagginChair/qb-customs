@@ -1,5 +1,5 @@
 maxVehiclePerformanceUpgrades = 0 -- Set to 0 to have all the upgrades
-vehicleBaseRepairCost = 600
+vehicleBaseRepairCost = 1000
 vehicleRepairCostMultiplier = 1
 moneyType = 'bank'
 
