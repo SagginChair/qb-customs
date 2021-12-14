@@ -21,20 +21,20 @@ bennyGarages = {
 -- ADJUST PRICING
 
 vehicleCustomisationPrices = {
-    cosmetics = {price = 900},
-    respray = {price = 1000},
-    performance = {prices = {0, 7250, 11500, 18450, 23250, 31500}},
-    turbo = {price = 40000},
-    wheels = {price = 800},
-    customwheels = {price = 200},
-    wheelsmoke = {price = 1200},
-    windowtint = {price = 1200},
-    neonside = {price = 900},
-    neoncolours = {price = 400},
-    headlights = {price = 900},
-    xenoncolours = {price = 500},
-    oldlivery = {price = 500},
-    plateindex = {price = 1000}
+    cosmetics = {price = 3500},
+    respray = {price = 3000},
+    performance = {prices = {0, 9250, 14500, 22450, 28250, 41500}},
+    turbo = {price = 50000},
+    wheels = {price = 3500},
+    customwheels = {price = 500},
+    wheelsmoke = {price = 2500},
+    windowtint = {price = 3500},
+    neonside = {price = 9500},
+    neoncolours = {price = 3000},
+    headlights = {price = 1500},
+    xenoncolours = {price = 3500},
+    oldlivery = {price = 4000},
+    plateindex = {price = 1500}
 }
 
 -- RESPRAY CATEGORIES
