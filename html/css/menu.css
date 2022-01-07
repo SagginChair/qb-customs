@@ -1,7 +1,7 @@
 /*
 * Import Fonts
 */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,400');
 
 /*
 * General Styles
@@ -15,45 +15,50 @@
     display: flex;
     flex-flow: column wrap;
 
-    background-color: rgb(23 23 23 / 80%);
+    background-color: rgba(0, 0, 0, 0.6);
     /*border: 2px solid rgb(236, 240, 241);*/
 
-    width: 47vh;
-    max-height: 78vh;
-    
-    border-radius: 1.2vh;
+    width: 430px;
+    max-height: 583px;
+}
+
+#menu_logo
+{
+    background-image: url("../imgs/logo.png");
+
+    width: 430px;
+    height: 106px;
 }
 
 #menu_heading
 {
     text-align: center;
-    font-family: 'Poppins', sans-serif;
-    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
     font-size: 18pt;
+    font-style: oblique;
     font-weight: 400;
     color: rgb(236, 240, 241);
-    background-color: #00c3ff;
-    border-radius: .6vh;
-    margin: 1vh;
-    padding: .5vh .5vh .5vh .5vh;
-    width: 44vh;
+    
+    text-shadow: 1px 1px black;
+    background-color: rgba(0, 0, 0, 0.6);
+
+    width: 430px;
 }
 
 #menu_subheading
 {
     text-align: center;
-    font-family: 'Poppins', sans-serif;
-    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
     font-size: 12pt;
+    font-style: oblique;
     font-weight: 300;
-    color: #171717;
-    background-color: #ededed;
-    margin-bottom: 1vh;
-    margin-left: 1vh;
-    width: 45vh;
-    height: 3vh;
-    padding-top: .5vh;
-    border-radius: .4vh;
+    color: rgb(236, 240, 241);
+    
+    text-shadow: 1px 1px black;
+    background-color: rgba(0, 0, 0, 0.6);
+
+    width: 430px;
+    height: 30px;
 }
 
 #menu_items
@@ -61,8 +66,7 @@
     margin: 0px;
     padding: 0px;
     
-    font-family: 'Poppins', sans-serif;
-    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
     font-size: 14pt;
     font-style: normal;
     font-weight: 300;
@@ -72,7 +76,7 @@
     text-align: left;
     line-height: 33px;
 
-    width: 47vh;
+    width: 430px;
 }
 
 #menu_items li
@@ -84,12 +88,12 @@
 
 #menu_items li:nth-child(odd)
 {
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
 #menu_items li:nth-child(even)
 {
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 .item_selected
@@ -102,15 +106,16 @@
 #menu_status
 {
     text-align: center;
-    font-family: 'Poppins', sans-serif;
-    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
     font-size: 12pt;
+    font-style: oblique;
     font-weight: 400;
-    color: #171717;
+    color: rgb(236, 240, 241);
     
-    background-color: #ededed;
+    text-shadow: 1px 1px black;
+    background-color: rgba(0, 0, 0, 0.6);
 
-    width: 47vh;
+    width: 430px;
 }
 
 #menu_directions
@@ -119,10 +124,7 @@
     padding-bottom: 5.5px;
     text-align: center;
     font-size: 18pt;
-    color: #ededed;
-    width: 47vh;
-    margin-top: 1vh;
-    border-bottom-left-radius: 1vh;
-    border-bottom-right-radius: 1vh;
-    background-color: #00c3ff;
+    color: rgb(236, 240, 241);
+
+    background-color: rgba(0, 0, 0, 0.6);
 }

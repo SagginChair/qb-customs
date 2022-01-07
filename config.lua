@@ -13,7 +13,9 @@ bennyGarages = {
     [4] = {coords = vector4(-38.73, -1052.82, 28.13, 340.41), useJob = false},
     [5] = {coords = vector4(435.55, -1026.92, 28.43, 5.45), useJob = true, job = {"police"}},
     [6] = {coords = vector4(1174.7, 2639.84, 37.08, 1.19), useJob = false},
-    [7] = {coords = vector4(1691.26, 3606.02, 34.98, 207.81), useJob = false}
+    [7] = {coords = vector4(1691.26, 3606.02, 34.98, 207.81), useJob = false},
+    [8] = {coords = vector4(135.88, -3030.17, 6.63, 180.67), useJob = false},
+    [9] = {coords = vector4(144.98, -3030.71, 6.63, 0.8), useJob = false}
 }
 
 --
